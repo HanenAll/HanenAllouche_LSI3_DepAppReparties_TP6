@@ -1,0 +1,7 @@
+//Declaration d'un module Corba
+module corbaConversion {
+//Declaration d'une interface CORBA
+  interface IConversionRemote{
+   double conversionMontant(in double mt);
+  };
+};
